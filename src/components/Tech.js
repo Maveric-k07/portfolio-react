@@ -4,12 +4,14 @@ import Paragraph from '../utils/Paragraph';
 
 const Tech = () => {
   return (
-    <div className='tech-section'>
+    <div className='section section-dark'>
+      <div className='section-content' id='tech'>
         <Heading heading={"My tech stack"} />
         <Paragraph info={'Frontend: HTML csss'}/>
         <Paragraph info={'Frontend: HTML csss'}/>
         <Paragraph info={'Frontend: HTML csss'}/>
         <Paragraph info={'Frontend: HTML csss'}/>
+    </div>
     </div>
   )
 }

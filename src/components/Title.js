@@ -4,11 +4,13 @@ import React from 'react';
 
 const Title = () => {
   return (
-    <div className='title-section'>
+    <div className='section'>
+      <div className='section-content' id='title'>
         <h1>Full-stack</h1>
         <h1><b>Web</b> and <b>Mobile</b></h1>
         <h1>developer</h1>
         <button ></button>
+       </div>
     </div>
   )
 }
