@@ -1,4 +1,5 @@
 import React from 'react'
+import Paragraph from './Paragraph'
 
 
 //need image at the beginning
@@ -6,7 +7,7 @@ const ProjectCard = (props) => {
   return (
     <div className='project-card'>
         <h2>{props.name}</h2>
-        <p>{props.description}</p>
+        <Paragraph info={props.description}/>
     </div>
   )
 }
