@@ -10,7 +10,7 @@ function SkillCardData(skill) {
 
 const Skills = () => {
   return (
-    <div className="skills container-fluid">
+    <div className="skills container-fluid wrapper">
       <h1>WHAT I DO</h1>
       <h3>
         <i>things I'm skilled at and passionate about</i>
