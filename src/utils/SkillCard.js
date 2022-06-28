@@ -1,4 +1,5 @@
 import React from 'react'
+import Paragraph from './Paragraph';
 
 //logo for every card and use props to fill title and content details of the skillcard
 
@@ -6,7 +7,7 @@ const SkillCard = (props) => {
   return (
     <div className='skill-card'>
         <h2>{props.name}</h2>
-        <p>{props.content}</p>
+        <Paragraph info={props.content}/>
     </div>
   )
 }

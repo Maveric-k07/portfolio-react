@@ -1,10 +1,13 @@
 import React from 'react'
+import Heading from '../utils/Heading'
 import SkillCard from '../utils/SkillCard'
+
+//figure out a way to add a separate avatar for each skillcard. Avatars for skillcard and aboutme section will use the same avatar component that is not created yet.
 
 const Skills = () => {
   return (
     <div className='skills'>
-        <h1>WHAT I DO</h1>
+        <Heading heading={"WHAT I DO"}/>
         <h3><i>things I'm skilled at and passionate about</i></h3>
         <SkillCard 
             name='Web Development'  
@@ -13,7 +16,6 @@ const Skills = () => {
         <SkillCard 
             name='Mobile Application Development'
             content='Cross-platform apps built with efficiency and speed for Android and iOS.'
-
         />
     </div>
   )
