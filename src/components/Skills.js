@@ -1,26 +1,23 @@
-import React from 'react'
-import Heading from '../utils/Heading'
-import SkillCard from '../utils/SkillCard'
+import React from "react";
+import SkillCard from "../utils/SkillCard";
+import SkillData from "../data";
 
-//figure out a way to add a separate avatar for each skillcard. Avatars for skillcard and aboutme section will use the same avatar component that is not created yet.
+function SkillCardData(skill) {
+  return (
+    <SkillCard icon={skill.icon} name={skill.name} content={skill.content} />
+  );
+}
 
 const Skills = () => {
   return (
-    <div className='section section-dark'>
-      <div className='section-content' id="skills">
-        <Heading heading={"WHAT I DO"}/>
-        <h3><i>things I'm skilled at and passionate about</i></h3>
-        <SkillCard 
-            name='Web Development'  
-            content='Fast, responsive and engaging apps that bring your ideas to life.'
-        />
-        <SkillCard 
-            name='Mobile Application Development'
-            content='Cross-platform apps built with efficiency and speed for Android and iOS.'
-        />
+    <div className="skills container-fluid">
+      <h1>WHAT I DO</h1>
+      <h3>
+        <i>things I'm skilled at and passionate about</i>
+      </h3>
+      <div className="row">{SkillData.map(SkillCardData)}</div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;

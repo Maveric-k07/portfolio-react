@@ -1,0 +1,46 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.title-button {
+  margin: 5% 3% 5% 0;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+p {
+  color: #8f8f8f;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.features {
+  text-align: center;
+  padding: 5%;
+}
+
+.icons {
+  color: #46bff7;
+  margin-bottom: 1rem;
+}
+.icons:hover {
+  color: #1e06fa;
+}
