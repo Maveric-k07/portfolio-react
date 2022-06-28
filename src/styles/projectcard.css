@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
 /*   color variables */
 /*   border radius */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -11,32 +13,29 @@ body {
   margin: 2rem;
 }
 .wrapper {
+  text-align: center;
+  padding: 5rem 15rem 5rem 15rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
   gap: 2rem;
   justify-content: center;
 }
 .card {
+  margin: 2rem;
+  text-align: center;
   overflow: hidden;
   box-shadow: 0 2px 20px #e1e5ee;
   border-radius: 0.2rem;
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   cursor: pointer;
   transition: transform 200ms ease-in;
 }
 .card__image {
-  height: 12rem;
+  height: 50%;
   width: 100%;
   object-fit: cover;
 }
-.card__title {
-  padding: 1rem;
-}
-.card__description {
-  padding: 0 1rem;
-}
+
 .card__btn {
   padding: 1rem;
   font-family: inherit;
