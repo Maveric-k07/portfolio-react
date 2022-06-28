@@ -6,7 +6,8 @@ import SkillCard from '../utils/SkillCard'
 
 const Skills = () => {
   return (
-    <div className='skills'>
+    <div className='section section-dark'>
+      <div className='section-content' id="skills">
         <Heading heading={"WHAT I DO"}/>
         <h3><i>things I'm skilled at and passionate about</i></h3>
         <SkillCard 
@@ -17,6 +18,7 @@ const Skills = () => {
             name='Mobile Application Development'
             content='Cross-platform apps built with efficiency and speed for Android and iOS.'
         />
+    </div>
     </div>
   )
 }
