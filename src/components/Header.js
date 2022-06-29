@@ -20,7 +20,7 @@ export default class Navbar extends Component {
             />
           }
           <ul className="nav-items">
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 activeClass="active"
                 to="title"
@@ -31,7 +31,7 @@ export default class Navbar extends Component {
               >
                 Home
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link
                 activeClass="active"
