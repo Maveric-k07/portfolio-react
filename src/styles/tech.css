@@ -1,15 +1,45 @@
 .actions li {
-    display: inline;
-    list-style-type: none;
-    padding-right: 15px;
-    font-size: 1.2em;
+  display: inline;
+  list-style-type: none;
+  padding-right: 15px;
+  font-size: 1.2em;
 }
 
 .hide {
-    display: none;
+  display: none;
+}
+.medium {
+  font-size: 3rem;
+  line-height: 2rem;
+  transition: transform 200ms ease-in;
+}
+.medium:hover {
+  transform: scale(1.2);
 }
 
 .mySpan:hover + .hide {
-    display: block;
-    color: red;
+  display: block;
+  color: red;
+}
+
+.TechCard {
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 2px 10px #e1e5ee;
+  border-radius: 0.2rem;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+}
+.TechCard:hover {
+  transform: scale(1.1);
+}
+
+.p-3 {
+  padding: 1rem !important;
+}
+.mb-2 {
+  margin-bottom: 1rem !important;
 }

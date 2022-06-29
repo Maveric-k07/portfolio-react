@@ -4,13 +4,13 @@ const ContactMeIcons = (props) => {
     <>
       <a
         href={props.link}
-        class={props.name}
+        className={props.name}
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class={props.icon}></i>
+        <span className="fa-stack fa-lg">
+          <i className="fa fa-circle fa-stack-2x"></i>
+          <i className={props.icon}></i>
         </span>
       </a>
     </>
