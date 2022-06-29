@@ -12,7 +12,6 @@ h1 {
 
 .container-fluid {
   text-align: center;
-  padding-top: 5rem;
 }
 .wrapper {
   text-align: center;
@@ -23,7 +22,7 @@ h1 {
 }
 
 .title-button {
-  margin: 5% 3% 5% 0;
+  margin: 3% 3% 5% 3%;
 }
 
 h3 {
@@ -50,4 +49,12 @@ h2 {
 }
 .icons:hover {
   color: #1e06fa;
+}
+
+.icon-button {
+  color: #46bff7;
+  margin: 10rem 0.25rem 0rem 0.25re;
+}
+.icon-button:hover {
+  color: #000000;
 }

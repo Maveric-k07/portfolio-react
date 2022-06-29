@@ -54,8 +54,8 @@
 .nav .nav-content {
   max-width: 900px;
   padding: 0rem 3rem;
-  margin: 0 auto;
-  display: flex;
+  margin: 0;
+  display: inline;
   justify-content: space-between;
   align-items: center;
   height: 100%;
@@ -71,7 +71,6 @@
   color: black;
   cursor: pointer;
 }
-
 
 .nav-item > .active {
   border-bottom: 1px solid #333;
@@ -91,7 +90,6 @@
   margin: 0 auto;
   padding: 40px;
 }
-
 
 @keyframes App-logo-spin {
   from {

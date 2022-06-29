@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import logo from "../assets";
+import logo from "../assets/logo.png";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export default class Navbar extends Component {
@@ -11,12 +11,14 @@ export default class Navbar extends Component {
     return (
       <nav className="nav" id="navbar">
         <div className="nav-content">
-          {/* <img
-            src={logo}
-            className="nav-logo"
-            alt="Logo"
-            onClick={this.scrollToTop}
-          /> */}
+          {
+            <img
+              src={logo}
+              className="nav-logo"
+              alt="Logo"
+              onClick={this.scrollToTop}
+            />
+          }
           <ul className="nav-items">
             <li className="nav-item">
               <Link

@@ -1,5 +1,6 @@
 import React from "react";
 import BackgroundImage from "../assets/background.jpg";
+import Icons from "./Icons";
 // add button and background image
 
 const Title = () => {
@@ -11,6 +12,8 @@ const Title = () => {
           <b>Web</b> and <b>Mobile</b>
         </h1>
         <h1>developer</h1>
+        <br />
+        <Icons />
         <a href="#skills" class="btn btn-outline-light btn-lg title-button">
           TELL ME MORE
         </a>
