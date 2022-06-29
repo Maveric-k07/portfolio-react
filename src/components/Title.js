@@ -2,11 +2,20 @@ import React from "react";
 import BackgroundImage from "../assets/background.jpg";
 import Icons from "./Icons";
 // add button and background image
+const myStyle = {
+  backgroundImage: `url(${BackgroundImage})`,
+  backgroundPosition: "center",
+  backgroundSize: "cover",
+  backgroundRepeat: "no-repeat",
+  width: "100vw",
+  height: "100vh",
+  paddingTop: "50px"
+};
 
 const Title = () => {
   return (
     <div className="container-fluid title-section">
-      <div id="title" style={{ backgroundImage: `url(${BackgroundImage})` }}>
+      <div id="title" style={myStyle}>
         <h1>Full-stack</h1>
         <h1>
           <b>Web</b> and <b>Mobile</b>

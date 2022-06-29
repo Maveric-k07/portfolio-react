@@ -12,6 +12,7 @@ h1 {
 
 .container-fluid {
   text-align: center;
+  --bs-gutter-x: 0rem;
 }
 .wrapper {
   text-align: center;
