@@ -21,7 +21,7 @@ const contacts = [
     id: 4,
     name: "icon-button google",
     icon: "fa fa-envelope fa-stack-1x fa-inverse",
-    link: "gurramakhileshwar333@gmail.com"
+    link: "mailto:gurramakhileshwar333@gmail.com"
   },
   {
     id: 5,

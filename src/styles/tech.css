@@ -1,0 +1,15 @@
+.actions li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 15px;
+    font-size: 1.2em;
+}
+
+.hide {
+    display: none;
+}
+
+.mySpan:hover + .hide {
+    display: block;
+    color: red;
+}
