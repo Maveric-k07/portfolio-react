@@ -1,7 +1,7 @@
 import React, { Component, useState } from "react";
 import logo from "../assets/logo.png";
 import { Link } from "react-scroll";
-import "../styles/nav.css"
+import "../styles/nav.css";
 
 // export default class Navbar extends Component {
 //   // scrollToTop = () => {
@@ -10,9 +10,8 @@ import "../styles/nav.css"
 
 //   _renderCounter = () => {
 //     const [navbar, setNavBar] = useState(false);
-    
-//   }
 
+//   }
 
 //   render() {
 //     return (
@@ -94,62 +93,89 @@ import "../styles/nav.css"
 //   }
 // }
 
-export default function Navbar(){
-
+export default function Navbar() {
   const [navBar, setNavBar] = useState(false);
 
   const changeBackground = () => {
-    if(window.scrollY >= 560){
+    if (window.scrollY >= 560) {
       setNavBar(true);
     } else {
       setNavBar(false);
     }
-  }
+  };
 
-  window.addEventListener('scroll',changeBackground);
+  window.addEventListener("scroll", changeBackground);
 
-  return(
-    <header className={navBar ? 'nav active' : 'nav'}>
-        <nav className="nav__container__actions">
-          <span class="navbar-brand" href="">
-            Akhileshwar
-          </span>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+  return (
+    <header className={navBar ? "nav active" : "nav"}>
+      <nav className="nav__container__actions ">
+        <span class="navbar-brand" href="">
+          Akhileshwar
+        </span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
-          </button>
-          <div >
-            <ul className="navList">
-              <li>
-                <Link activeClass="active" smooth="easeInOutBack" spy to="skills" offset={-65} duration={500}>
-                  What I do 
-                </Link>
-              </li>
-              <li>
-                <Link activeClass="active" smooth="easeInOutBack" spy to="tech" offset={-65} duration={500}>
-                  Tech
-                </Link>
-              </li>
-              <li>
-                <Link activeClass="active" smooth="easeInOutBack" spy to="projects" offset={-65} duration={500}>
-                  Projects
-                </Link>
-              </li>
-              <li>
-                <Link activeClass="active" smooth="easeInOutBack" spy to="aboutme" offset={-65} duration={500}>
-                  About
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </nav>
+        </button>
+        <div>
+          <ul className="navList ms-auto">
+            <li>
+              <Link
+                activeClass="active"
+                smooth="easeInOutBack"
+                spy
+                to="skills"
+                offset={-65}
+                duration={500}
+              >
+                What I do
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                smooth="easeInOutBack"
+                spy
+                to="tech"
+                offset={-65}
+                duration={500}
+              >
+                Tech
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                smooth="easeInOutBack"
+                spy
+                to="projects"
+                offset={-65}
+                duration={500}
+              >
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                smooth="easeInOutBack"
+                spy
+                to="aboutme"
+                offset={-65}
+                duration={500}
+              >
+                About
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
-  )
+  );
 }

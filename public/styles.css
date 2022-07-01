@@ -13,6 +13,7 @@ h1 {
 .container-fluid {
   text-align: center;
   --bs-gutter-x: 0rem;
+  padding-top: 5rem;
 }
 .wrapper {
   text-align: center;
@@ -23,7 +24,7 @@ h1 {
 }
 
 .title-button {
-  margin: 3% 3% 5% 3%;
+  margin: 5% 3% 5% 3%;
 }
 
 h3 {

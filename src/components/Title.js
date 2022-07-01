@@ -8,14 +8,12 @@ const myStyle = {
   backgroundPosition: "center",
   backgroundSize: "cover",
   backgroundRepeat: "no-repeat",
-  padding: "3rem 25rem 12rem",
   textAlign: "center"
 };
 
-
 const Title = () => {
   return (
-    <div id="title" style={myStyle} >
+    <div id="title" style={myStyle}>
       <div className="container-fluid">
         <h1>Full-stack</h1>
         <h1>
