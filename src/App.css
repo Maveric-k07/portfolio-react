@@ -32,7 +32,9 @@
   --off-white: #fafafa;
 }
 
-.nav {
+
+
+/* .nav {
   background-color: var(--off-white);
   position: sticky;
   top: 0px;
@@ -40,6 +42,10 @@
   height: 80px;
   z-index: 1000;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+}
+
+.nav.active {
+  background: linear-gradient(90deg, rgb(66,2,194) 0%, rgb(0,78,194) 100%);
 }
 
 .nav-logo {
@@ -75,7 +81,7 @@
 .nav-item > .active {
   border-bottom: 1px solid #333;
   background-color: yellow;
-}
+} */
 
 .section {
 }
