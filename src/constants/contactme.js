@@ -8,13 +8,13 @@ const contacts = [
   {
     id: 2,
     name: "icon-button github",
-    icon: "fab fa-github fa-stack-1x fa-inverse",
+    icon: "fa fa-github fa-stack-1x fa-inverse",
     link: "https://github.com/Maveric-k07"
   },
   {
     id: 3,
     name: "icon-button instagram",
-    icon: "fab fa-instagram fa-stack-1x fa-inverse",
+    icon: "fa fa-instagram fa-stack-1x fa-inverse",
     link: "https://www.instagram.com/akhileshwar_gurram/"
   },
   {

@@ -46,16 +46,29 @@ h2 {
 }
 
 .icons {
-  color: #46bff7;
+  border-radius: 100%;
+  padding: 0.3em;
   margin-bottom: 1rem;
+
+  background-image: linear-gradient(
+    to right,
+    #014a6a 0%,
+    #048c9c 51%,
+    #00627d 100%
+  );
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
 }
 .icons:hover {
-  color: #1e06fa;
+  background-position: right center;
+  color: white;
 }
 
 .icon-button {
-  color: #46bff7;
-  margin: 10rem 0.25rem 0rem 0.25re;
+  color: pink;
+  margin: 10rem 0.25rem 0rem 0.25rem;
 }
 .icon-button:hover {
   color: #000000;

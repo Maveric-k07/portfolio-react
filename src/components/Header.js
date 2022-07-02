@@ -124,7 +124,7 @@ export default function Navbar() {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div>
-          <ul className="navList ms-auto">
+          <ul className="navList">
             <li>
               <Link
                 activeClass="active"
