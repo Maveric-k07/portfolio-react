@@ -60,6 +60,11 @@
   text-decoration: none;
 }
 
+.nav-logo {
+  cursor: pointer;
+  height: 50px;
+  width: 300px;
+}
 .navList {
   display: flex;
   gap: 2rem;
@@ -88,12 +93,13 @@ a {
   .wrapper {
     text-align: center;
     font-size: 10px;
-    padding: 2% 5% 2%;
+    padding: 1% 5% 1%;
   }
 
   .nav {
     text-transform: none;
-    height: 90px;
+    height: 110px;
+    padding: 1% 8% 1%;
   }
 
   .nav__container__actions {
@@ -104,7 +110,6 @@ a {
   li {
     margin-top: 5px;
     letter-spacing: 0px;
-    display: block;
   }
 
   .navList {
@@ -115,5 +120,9 @@ a {
   }
   .leftnav {
     margin: auto;
+  }
+  .nav-logo {
+    margin: auto;
+    width: 200px;
   }
 }
