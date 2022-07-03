@@ -20,11 +20,12 @@ body {
 }
 
 h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
 }
 p {
-  color: #8f8f8f;
+  font-family: "Arima", cursive;
+  color: #333333;
 }
 
 h2 {
