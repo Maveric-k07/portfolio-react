@@ -2,11 +2,11 @@ import React from "react";
 import { aboutme1, aboutme2, aboutme3 } from "../constants/aboutme";
 import Paragraph from "../utils/Paragraph";
 import Heading from "../utils/Heading";
-
+import "../styles/h1.css";
 // add avatar
 const About = () => {
   return (
-    <div className="section ">
+    <div className="section wrapper ">
       <div className="section-content " id="aboutme">
         <Heading heading={"ABOUT ME"} />
         <Paragraph info={"Let's break the ice a little"} />

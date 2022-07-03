@@ -19,7 +19,7 @@ const Projects = () => {
   return (
     <div className="container wrapper">
       <div className="row" id="projects">
-        <Heading heading={"project"} />
+        <Heading heading={"PORTFOLIO"} />
         <h3>Some of my latest work</h3>
         {projects.map(ProjectCardData)}
       </div>

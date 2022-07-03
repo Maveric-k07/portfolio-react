@@ -78,9 +78,14 @@ li:hover {
 }
 
 @media (max-width: 620px) {
+  .wrapper {
+    text-align: center;
+    font-size: 10px;
+    padding: 2% 5% 2%;
+  }
+
   .nav {
     text-transform: none;
-
     height: 90px;
   }
 
