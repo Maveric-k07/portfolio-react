@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/icons.css";
 const ContactMeIcons = (props) => {
   return (
     <>
@@ -8,7 +9,7 @@ const ContactMeIcons = (props) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span className="fa-stack fa-lg">
+        <span className="fa-stack fa-lg ">
           <i className="fa fa-circle fa-stack-2x"></i>
           <i className={props.icon}></i>
         </span>

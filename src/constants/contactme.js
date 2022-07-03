@@ -1,7 +1,7 @@
 const contacts = [
   {
     id: 1,
-    name: "icon-button linkedin",
+    name: "icon-button linkedin ",
     icon: "fab fa-linkedin-in fa-stack-1x fa-inverse",
     link: "https://www.linkedin.com/in/akhileshwar-gurram-b434591b6/"
   },
@@ -26,12 +26,6 @@ const contacts = [
   {
     id: 5,
     name: "icon-button twitter",
-    icon: "fa fa-twitter fa-stack-1x fa-inverse ",
-    link: "https://twitter.com/AkhileshwarG07"
-  },
-  {
-    id: 6,
-    name: "icon-button github",
     icon: "fa fa-twitter fa-stack-1x fa-inverse ",
     link: "https://twitter.com/AkhileshwarG07"
   }

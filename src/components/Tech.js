@@ -16,9 +16,9 @@ function TechCardData(tech) {
 
 const Tech = () => {
   return (
-    <div className="section section-dark">
+    <div className="">
       <div className="section-content" id="tech">
-        <Heading heading={"My tech stack"} />
+        <Heading heading={"MY TECH STACK"} />
         <div className="techcards-list">
           <span className="actions">
             <ul>

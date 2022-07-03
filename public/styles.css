@@ -1,9 +1,8 @@
 body {
-  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
   font-size: 3.5rem;
   font-weight: bold;
@@ -14,17 +13,18 @@ h1 {
   text-align: center;
   --bs-gutter-x: 0rem;
   padding-top: 5rem;
+  padding-bottom: 3rem;
 }
 .wrapper {
   text-align: center;
-  padding: 5rem 15rem 5rem 15rem;
+  padding: 2% 15% 7%;
   display: grid;
   gap: 2rem;
   justify-content: center;
 }
 
 .title-button {
-  margin: 5% 3% 5% 3%;
+  margin: 7% 3% 5% 3%;
 }
 
 h3 {
@@ -43,33 +43,4 @@ h2 {
 .features {
   text-align: center;
   padding: 5%;
-}
-
-.icons {
-  border-radius: 100%;
-  padding: 0.3em;
-  margin-bottom: 1rem;
-
-  background-image: linear-gradient(
-    to right,
-    #014a6a 0%,
-    #048c9c 51%,
-    #00627d 100%
-  );
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  box-shadow: 0 0 20px #eee;
-}
-.icons:hover {
-  background-position: right center;
-  color: white;
-}
-
-.icon-button {
-  color: pink;
-  margin: 10rem 0.25rem 0rem 0.25rem;
-}
-.icon-button:hover {
-  color: #000000;
 }
