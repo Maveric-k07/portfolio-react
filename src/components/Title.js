@@ -13,20 +13,20 @@ const myStyle = {
 
 const Title = () => {
   return (
-    <div id="title" style={myStyle}>
-      <div className="container-fluid">
-        <h1>Full-stack</h1>
-        <h1>
-          <b>Web</b> and <b>Mobile</b>
-        </h1>
-        <h1>developer</h1>
-        <br />
-        <Icons />
-        <a href="#skills" class="btn btn-outline-light btn-lg title-button">
-          TELL ME MORE
-        </a>
-      </div>
+    // <div id="title" style={myStyle}>
+    <div className="container-fluid">
+      <h1>Full-stack</h1>
+      <h1>
+        <b>Web</b> and <b>Mobile</b>
+      </h1>
+      <h1>developer</h1>
+      <br />
+      <Icons />
+      <a href="#skills" class="btn btn-outline-light btn-lg title-button">
+        TELL ME MORE
+      </a>
     </div>
+    // </div>
   );
 };
 

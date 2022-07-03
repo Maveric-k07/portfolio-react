@@ -8,7 +8,7 @@ function ContactIconData(info) {
 
 const Icons = () => {
   return (
-    <div>
+    <div className="iconclass">
       <span>{ContactmeData.map(ContactIconData)}</span>
     </div>
   );

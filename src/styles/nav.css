@@ -9,9 +9,10 @@
   min-height: 70px;
   text-transform: uppercase;
   padding: 2% 15% 2%;
-  background-color: white;
+  background-color: transparent;
   transition: 0.8s;
-  box-shadow: 0 0 10px #eee;
+  color: white;
+  /* box-shadow: 0 0 10px #eee; */
 }
 
 .nav.active {
