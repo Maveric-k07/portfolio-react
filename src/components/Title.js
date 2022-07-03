@@ -1,5 +1,5 @@
 import React from "react";
-import BackgroundImage from "../assets/background.jpg";
+// import BackgroundImage from "../assets/background.jpg";
 import Icons from "./Icons";
 // add button and background image
 

@@ -1,5 +1,5 @@
 import "./App.css";
-import Title from "./components/Title";
+// import Title from "./components/Title";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import About from "./components/About";
