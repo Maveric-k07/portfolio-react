@@ -185,7 +185,12 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li>
-                 <a href="https://drive.google.com/file/d/1U5nzDfMzk-T97Dw-QvxMu_XebjcMzAWR/view?usp=sharing" target="_blank">Resume</a>
+                 <a 
+                    href="https://drive.google.com/file/d/1U5nzDfMzk-T97Dw-QvxMu_XebjcMzAWR/view?usp=sharing" 
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                    Resume
+                  </a>
                 </li>
               </ul>
             </div>
