@@ -79,6 +79,11 @@ li:hover {
   color: #028ea7;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 @media (max-width: 620px) {
   .wrapper {
     text-align: center;
