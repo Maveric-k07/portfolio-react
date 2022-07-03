@@ -6,11 +6,3 @@ h1 {
   line-height: 1.5;
   color: rgb(0, 0, 0);
 }
-
-@media (max-width: 400px) {
-  .h1 {
-    font-family: "Montserrat", sans-serif;
-    color: red;
-    font-size: 15px;
-  }
-}
