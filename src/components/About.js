@@ -8,11 +8,13 @@ const About = () => {
   return (
     <div className="section wrapper ">
       <div className="section-content " id="aboutme">
-        <Heading heading={"ABOUT ME"} />
-        <Paragraph info={"Let's break the ice a little"} />
-        <Paragraph info={aboutme1} />
-        <Paragraph info={aboutme2} />
-        <Paragraph info={aboutme3} />
+        <div style={{ fontSize: "18px" }}>
+          <Heading heading={"ABOUT ME"} />
+          <Paragraph info={"Let's break the ice a little"} />
+          <Paragraph info={aboutme1} />
+          <Paragraph info={aboutme2} />
+          <Paragraph info={aboutme3} />
+        </div>
       </div>
     </div>
   );

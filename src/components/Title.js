@@ -14,7 +14,7 @@ const Title = () => {
     <div className="container-fluid">
       <h1 style={myStyle}>Full-stack</h1>
       <h1>
-        <strong className="strong">Web</strong> and{" "}
+        <strong className="strong">Web</strong> &{" "}
         <strong className="strong">Mobile</strong>
       </h1>
       <h1>Developer</h1>

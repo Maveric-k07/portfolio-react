@@ -5,9 +5,9 @@ import "../styles/nav.css";
 import Title from "./Title";
 import BackgroundImage from "../assets/background.jpg";
 
-const scrollToTop = function() {
+const scrollToTop = function () {
   scroll.scrollToTop();
-}
+};
 
 const myStyle = {
   backgroundImage: `url(${BackgroundImage})`,
@@ -16,7 +16,6 @@ const myStyle = {
   backgroundRepeat: "no-repeat",
   textAlign: "center"
 };
-
 
 // export default class Navbar extends Component {
 //   // scrollToTop = () => {
@@ -33,12 +32,12 @@ const myStyle = {
 //       <nav className="nav active" id="navbar">
 //         <div className="nav-content">
 //           {
-            // <img
-            //   src={logo}
-            //   className="nav-logo"
-            //   alt="Logo"
-            //   onClick={this.scrollToTop}
-            // />
+// <img
+//   src={logo}
+//   className="nav-logo"
+//   alt="Logo"
+//   onClick={this.scrollToTop}
+// />
 //           }
 //           <ul className="nav-items">
 //             {/* <li className="nav-item">
@@ -112,7 +111,7 @@ export default function Navbar() {
   const [navBar, setNavBar] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= 50) {
+    if (window.scrollY >= 30) {
       setNavBar(true);
     } else {
       setNavBar(false);
@@ -125,12 +124,12 @@ export default function Navbar() {
     <section style={myStyle}>
       <header className={navBar ? "nav active" : "nav"}>
         <span class="navbar-brand" href="">
-        <img
-              src={logo}
-              className="nav-logo"
-              alt="Logo"
-              onClick={scrollToTop}
-            />
+          <img
+            src={logo}
+            className="nav-logo"
+            alt="Logo"
+            onClick={scrollToTop}
+          />
         </span>
         <center className="leftnav">
           <nav className="nav__container__actions ">
@@ -185,10 +184,11 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li>
-                 <a 
-                    href="https://drive.google.com/file/d/1U5nzDfMzk-T97Dw-QvxMu_XebjcMzAWR/view?usp=sharing" 
-                    target="_blank" 
-                    rel="noopener noreferrer">
+                  <a
+                    href="https://drive.google.com/file/d/1U5nzDfMzk-T97Dw-QvxMu_XebjcMzAWR/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Resume
                   </a>
                 </li>
