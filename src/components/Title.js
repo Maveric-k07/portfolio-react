@@ -4,7 +4,7 @@ import Icons from "./Icons";
 // add button and background image
 
 const myStyle = {
-  paddingTop : "6%",
+  paddingTop: "9%",
   textAlight: "center"
 };
 
@@ -14,7 +14,8 @@ const Title = () => {
     <div className="container-fluid">
       <h1 style={myStyle}>Full-stack</h1>
       <h1>
-        <b>Web</b> and <b>Mobile</b>
+        <strong className="strong">Web</strong> and{" "}
+        <strong className="strong">Mobile</strong>
       </h1>
       <h1>Developer</h1>
       <br />

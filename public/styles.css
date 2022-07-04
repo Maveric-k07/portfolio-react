@@ -37,3 +37,8 @@ h2 {
   text-align: center;
   padding: 5%;
 }
+.strong {
+  font-size: 70px;
+  font-weight: 900;
+  text-shadow: 0 2px black;
+}

@@ -6,10 +6,10 @@
   width: 100%;
   top: 0px;
   z-index: 2;
-  height: 70px;
+  height: 90px;
   min-height: 70px;
   text-transform: uppercase;
-  padding: 2% 15% 2%;
+  padding: 1% 15% 1%;
   background-color: transparent;
   transition: 0.8s;
   color: white;
@@ -20,7 +20,7 @@
   background: black;
   border-radius: 0px;
   box-shadow: 0 0 10px rgb(0, 0, 0);
-  padding: 2% 10% 2%;
+  padding: 1% 10% 1%;
 }
 
 .nav__container {
@@ -53,6 +53,7 @@
   color: white;
   border-radius: 10px;
   padding: 0.5rem;
+  height: 70px;
 }
 .active:hover {
   background-position: right center; /* change the direction of the change here */
@@ -62,8 +63,9 @@
 
 .nav-logo {
   cursor: pointer;
-  height: 50px;
-  width: 300px;
+  height: 30px;
+  width: 320px;
+  vertical-align: 0px;
 }
 .navList {
   display: flex;
@@ -79,6 +81,7 @@ li {
 }
 .leftnav {
   margin-left: auto;
+  margin-top: auto;
 }
 li:hover {
   color: #028ea7;
@@ -92,8 +95,8 @@ a {
 @media (max-width: 620px) {
   .wrapper {
     text-align: center;
-    font-size: 10px;
-    padding: 1% 5% 1%;
+    font-size: 12px;
+    padding: 1% 10% 1%;
   }
 
   .nav {
@@ -122,7 +125,8 @@ a {
     margin: auto;
   }
   .nav-logo {
-    margin: auto;
-    width: 200px;
+    height: 40px;
+    width: 100%;
+    vertical-align: 0px;
   }
 }

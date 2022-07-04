@@ -23,19 +23,19 @@ const Tech = () => {
           <span className="actions">
             <ul>
               <div className="TechCard p-3 mb-2 bg-light text-dark">
-                <span>Frontend: </span> {frontend.map(TechCardData)}
+                <p className="tech">FRONTEND </p> {frontend.map(TechCardData)}
               </div>
               <div className="TechCard p-3 mb-2 bg-light text-dark">
-                <span>Backend: </span> {backend.map(TechCardData)}
+                <p className="tech">BACKEND </p> {backend.map(TechCardData)}
               </div>
               <div className="TechCard p-3 mb-2 bg-light text-dark">
-                <span>Databases: </span> {databases.map(TechCardData)}
+                <p className="tech">DATABASES </p> {databases.map(TechCardData)}
               </div>
               <div className="TechCard p-3 mb-2 bg-light text-dark">
-                <span>Languages: </span> {languages.map(TechCardData)}
+                <p className="tech">LANGUAGES </p> {languages.map(TechCardData)}
               </div>
               <div className="TechCard p-3 mb-2 bg-light text-dark">
-                <span>Tools: </span> {tools.map(TechCardData)}
+                <p className="tech">TOOLS </p> {tools.map(TechCardData)}
               </div>
             </ul>
           </span>
