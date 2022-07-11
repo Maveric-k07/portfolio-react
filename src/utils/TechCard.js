@@ -3,8 +3,9 @@ import React from "react";
 const TechCard = (props) => {
   return (
     <>
+      <span title={props.name}>
       <span className="medium iconify mySpan" data-icon={props.logo}></span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </span>
     </>
   );
 };

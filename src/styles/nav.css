@@ -76,6 +76,7 @@
 }
 
 li {
+  margin-top: 2%;
   cursor: pointer;
   letter-spacing: 0.3px;
 }
@@ -129,4 +130,18 @@ a {
     width: 100%;
     vertical-align: 0px;
   }
+
+  .tech {
+      font-size: 15px;
+      margin: 0;
+  }
+
+
+  .medium {
+      font-size: 3rem;
+  }
+  .row{
+    margin-bottom: 3rem;
+  }
+
 }

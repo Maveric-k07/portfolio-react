@@ -15,7 +15,7 @@ const Skills = () => {
       <h3>
         <i>things I'm skilled at and passionate about</i>
       </h3>
-      <div className="row">{SkillData.map(SkillCardData)}</div>
+      <div className="row" >{SkillData.map(SkillCardData)}</div>
     </div>
   );
 };

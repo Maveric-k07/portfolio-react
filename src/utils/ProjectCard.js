@@ -9,7 +9,7 @@ export default function ProjectCard(props) {
       }}
       className="col-lg-6"
     >
-      <div className="card">
+      <div className="card" >
         <div className="card-body">
           <img src={props.img} className="card__image" alt="project" />
           <br />

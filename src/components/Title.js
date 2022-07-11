@@ -20,7 +20,7 @@ const Title = () => {
       <h1>Developer</h1>
       <br />
       <Icons />
-      <a href="#skills" class="btn btn-outline-light btn-lg title-button">
+      <a href="#skills"  class="btn btn-outline-light btn-lg title-button">
         TELL ME MORE
       </a>
     </div>

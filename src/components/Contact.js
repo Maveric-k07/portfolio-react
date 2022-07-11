@@ -11,7 +11,9 @@ const Contact = () => {
         <Heading heading={"CONTACT ME"} />
         <Icons />
         <br />
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <Paragraph info={"Made with ❤️ by Akhileshwar"} />
+        </div>
       </div>
     </div>
   );
