@@ -7,8 +7,8 @@
 
 .tech {
     color: black;
-    margin-bottom: 20px;
-    font-size: 22px;
+    margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .hide {
@@ -56,5 +56,5 @@
     margin-bottom: 1rem !important;
 }
 .techStackImage{
-  height: 350px;
+  height: 250px;
 }
