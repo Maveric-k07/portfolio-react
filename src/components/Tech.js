@@ -39,12 +39,12 @@ const Tech = () => {
           </div>
           </div>
 
-          
+
           <div className="row">
             <div className="TechCard p-3 mb-2">
             <p className="tech">BACKEND </p>
-            {backend.map(TechCardData)}
             <img className="techStackImage" src={backendImg} alt="backend" />
+            {backend.map(TechCardData)}
           </div>
           </div>
 
@@ -61,8 +61,8 @@ const Tech = () => {
           <div className="row" >
             <div className="TechCard p-3 mb-2">
             <p className="tech">LANGUAGES </p>
-              {languages.map(TechCardData)}
               <img className="techStackImage" src={languagesImg} alt="languages" />
+              {languages.map(TechCardData)}
           </div>
           </div>
 
