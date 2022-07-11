@@ -138,10 +138,14 @@ a {
 
 
   .medium {
-      font-size: 3rem;
+      font-size: 2.5rem;
   }
   .row{
     margin-bottom: 3rem;
+  }
+
+  .techStackImage{
+    height: 250px;
   }
 
 }

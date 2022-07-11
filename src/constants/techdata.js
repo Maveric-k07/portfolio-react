@@ -7,7 +7,7 @@ export const frontend = [
     {
         id: 2,
         name: 'CSS',
-        logo: "logos:css-3",  
+        logo: "logos:css-3",
     },
     {
         id: 3,
@@ -22,12 +22,12 @@ export const frontend = [
     {
         id: 5,
         name: 'BootStrap',
-        logo: "logos:bootstrap", 
+        logo: "logos:bootstrap",
     },
      {
         id: 6,
         name: 'Flutter',
-        logo: "logos:flutter", 
+        logo: "logos:flutter",
     }
 ];
 
@@ -127,11 +127,9 @@ export const tools = [
         name: "Terminal",
         logo: "bxs:terminal"
     },
-    {
-        id: 6,
-        name: "Code SandBox",
-        logo: "ant-design:code-sandbox-circle-filled"
-    },
+    // {
+    //     id: 6,
+    //     name: "Code SandBox",
+    //     logo: "ant-design:code-sandbox-circle-filled"
+    // },
 ]
-
-
