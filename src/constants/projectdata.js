@@ -8,7 +8,7 @@ const projects = [
     image: AI,
     name: "Face Recognition Attendance system",
     description:
-      "Full-stack app with python assisted AI based facial recognition attendance system for college. CMRIT Hackathon project 2021.",
+      "Full-stack app, python assisted AI based facial recognition attendance system. CMRIT Hackathon project 2021.",
     link: "https://github.com/Maveric-k07/FaceRecognitionAttendance"
   },
   {

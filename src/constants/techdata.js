@@ -127,9 +127,10 @@ export const tools = [
         name: "Terminal",
         logo: "bxs:terminal"
     },
-    // {
-    //     id: 6,
-    //     name: "Code SandBox",
-    //     logo: "ant-design:code-sandbox-circle-filled"
-    // },
+    {
+        id: 6,
+        name: "Code SandBox",
+        logo: "ant-design:code-sandbox-circle-filled"
+    },
+    
 ]

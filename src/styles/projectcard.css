@@ -27,11 +27,12 @@ body {
   flex-direction: column;
   justify-content: center;
   cursor: pointer;
+  height: 600px;
   transition: transform 200ms ease-in;
 }
 .card__image {
   height: 300px;
-  width: 260px;
+  width: 100%;
   object-fit: cover;
 }
 

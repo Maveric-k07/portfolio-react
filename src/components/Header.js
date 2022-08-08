@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../assets/logo.png";
 import { Link, animateScroll as scroll } from "react-scroll";
+
 import "../styles/nav.css";
 import Title from "./Title";
 import BackgroundImage from "../assets/background.jpg";
@@ -121,6 +122,7 @@ export default function Navbar() {
   window.addEventListener("scroll", changeBackground);
 
   return (
+
     <section style={myStyle}>
       <header className={navBar ? "nav active" : "nav"}>
         <span class="navbar-brand" href="">
@@ -185,7 +187,7 @@ export default function Navbar() {
                 </li>
                 <li>
                   <a
-                    href="https://drive.google.com/file/d/1TTqsooHAymgNOyU8eAXT2AKt7p3G9TPa/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1Qrs-IHdePXIGK_eBdHyNxAqqBoQlrDZ-/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
